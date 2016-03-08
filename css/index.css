@@ -1,0 +1,91 @@
+html,body {  margin: 0;  padding: 0;}
+html,body,button,input,select,textarea {  color: #3f484f;  font: 14px/24px "Oxygen", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;  -webkit-font-smoothing: antialiased;}
+body {  background: #f9f8f7;}
+img,input {  vertical-align: middle;}
+img,a {  border: none;}
+/* a,a:hover {  text-decoration: none;  outline: none;} */
+.clear {  clear: both;}
+@media (min-width: 700px) {  body {    font-size: 70%;  }}
+.topbar{
+	height:70px;
+	width:100%;
+	border-bottom: 1px solid #e4e4e4;
+}
+.topbar-top{
+	width:100%;
+    margin: 0 auto;
+    line-height: 42px;
+    text-align: center;
+    background: rgba(28,136,205,0.95); 
+    overflow: hidden;
+}
+.denglu{
+	float: left;
+    width: 42px;
+    height:42px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.denglu img{
+    width: 24px;
+    margin-bottom: 3px;
+}
+.logo{
+	width: 120px;
+    height:42px;
+    margin: 0 auto;
+    line-height: 42px;
+    text-align: center;
+}
+.logo img{
+    height: 18px;
+	margin-bottom: 4px;
+}
+.logo .icons{
+    width:15px;
+    height:15px;
+    margin-left: 5px;
+}
+.dingwei{
+	float: right;
+    width: 42px;
+    height:42px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 6px;
+}
+.dingwei img{
+    width: 24px;
+    margin-bottom: 3px;
+}
+.topbar-bottom{
+    width:100%;
+    text-align: center;
+    font-size: 1.2em;
+    padding-left: 5px;
+    background: rgba(247,247,247,0.95);
+    overflow: hidden;
+    white-space: nowrap;
+}
+.topbar-bottom .list{
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 26px;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+
+}
+.topbar-bottom .list span{
+    font-size: 1.2em;
+}
+.active{
+    color: #1c88cd;
+    border-color: #1c88cd;
+}
