@@ -1,11 +1,13 @@
 html,body {  margin: 0;  padding: 0;}
-html,body,button,input,select,textarea {  color: #3f484f;  font: 14px/24px "Oxygen", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;  -webkit-font-smoothing: antialiased;}
+html,body,button,input,select,textarea {  
+    color: #3f484f;
+    font: 14px/24px "Oxygen", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;  -webkit-font-smoothing: antialiased;}
 body {  background: #f9f8f7;}
 img,input {  vertical-align: middle;}
 img,a {  border: none;}
 /* a,a:hover {  text-decoration: none;  outline: none;} */
 .clear {  clear: both;}
-@media (min-width: 700px) {  body {    font-size: 70%;  }}
+/* @media (min-width: 700px) {  body {    font-size: 10%;  }} */
 .topbar{
 	height:70px;
 	width:100%;
@@ -68,7 +70,6 @@ img,a {  border: none;}
     width:100%;
     text-align: center;
     font-size: 1.2em;
-    padding-left: 5px;
     background: rgba(247,247,247,0.95);
     overflow: hidden;
     white-space: nowrap;
@@ -83,9 +84,101 @@ img,a {  border: none;}
 
 }
 .topbar-bottom .list span{
-    font-size: 1.2em;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 12px;
 }
 .active{
     color: #1c88cd;
     border-color: #1c88cd;
+}
+.hot img{
+    width:14px;
+    height:14px;
+}
+.today{
+    color: #999;
+    font-size: 11px;
+    height: 22px;
+    line-height: 26px;
+    padding-left: 20px;
+    max-width: 660px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#articles{
+    max-width: 660px;
+    margin: 0 auto;
+}
+.item{
+    overflow: hidden;
+    background: #f6f6f6;
+    padding: 10px 16px 8px 21px;
+    -webkit-transition: all 0.3s;
+}
+.line{
+    height: 1px;
+    background: #e4e4e4;
+    overflow: hidden;
+}
+.item-top{
+    overflow: hidden;
+}
+.article-image{
+    height: 64px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.title{
+    font-size: 15px;
+    font-weight: 300;
+    color: #222;
+    overflow: hidden;
+    padding: 0;
+    line-height: 1.4;
+}
+.info{
+    color: #8c97a2;
+    margin-top: 5px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.more{
+    float: right;
+}
+.source{
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.more img{
+    margin-left: 3px;
+    width: 10px;
+    height: 10px;
+}
+.date{
+    float: left;
+    margin-right: 12px;
+}
+.com{
+    float: left;
+    margin-right: 12px;
+}
+.com img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+.like{
+    float: left;
+    margin-right: 12px;
+}
+.like img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 3px;
+    margin-right: 3px;
 }
